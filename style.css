@@ -1,0 +1,64 @@
+body{
+	background-color: rgb(121, 88, 51);
+}
+.popWindow h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+a{
+	background-color: rgb(236, 187, 148);
+	padding: 40px 70px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.close-btn{
+    float:right;
+    font-size: 60px;
+    line-height: 40px;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    padding: 10px;
+}
+.form-text{
+	text-align:center;
+	position:relative;
+}
+.thank-you-window{
+    margin: auto;
+    display: none;
+    padding: 5px;
+    height: 120px;
+    width: 340px;
+    box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+    background-color: rgb(142,190,131);
+}
+.thanks{
+    font-size: 25px;
+}
+.popup-main-window{
+    width: 300px;
+}
+.popup-overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(44, 54, 80);
+    z-index: 100;
+}
+.popWindow{
+    display: none;
+    margin: auto;
+    max-width: 750px;
+    padding-bottom: 20px;
+    top:50%;
+    left:50%;
+    box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+    background-color: rgba(172, 191, 229, 0.27);
+}
